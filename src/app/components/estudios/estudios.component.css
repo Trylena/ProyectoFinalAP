@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+
+.h1{
+    text-align: center;
+    position: absolute;
+}
+
+.conocimiento{
+    display: inline-block;
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: Roboto;
+  }
+  
+  
+  .conocimiento li{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 25px 15px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: black;
+    height: 400px;
+  }
+
+#escuela{
+    width: 150px;
+}

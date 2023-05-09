@@ -1,20 +1,26 @@
-@media (min-width: 576px){
-    #fotodeperfil{
-        position: absolute;
-         width: 15%; 
-         border-radius: 100%;
-         box-shadow: 3px 3px 3px grey;
-         left: 3%;
-         top: 500px;
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+
+#fotodeperfil{
+    position: absolute;
+    width: 200px; 
+    background: none;
+    top: 45%;
     }
+
+.nombre{
+    position: absolute;
+    top: 73%;
+    font-family: Roboto;
+    margin-left: 30px;
+    width: 150px;
+    text-align: center;
 }
-@media (max-width: 575px){
-    #fotodeperfil{
-        position: absolute;
-         width: 30%; 
-         border-radius: 100%;
-         box-shadow: 3px 3px 3px grey;
-         left: 35%;
-         top: 630px;
-    }
+
+.yo{
+    position: inherit;
+    margin-left: 200px;
+    float: left;
+    font-family: Roboto;
+    font-size: medium;
+
 }
