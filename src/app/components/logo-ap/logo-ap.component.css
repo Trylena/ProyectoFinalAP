@@ -17,8 +17,14 @@
     float: right;
     left: 30%;
     margin: 3px;
+    margin-bottom: 5px;
 }
   
 .redes a:hover {
     transform: scale(1.2);
+}
+
+.btn{
+    float: right;
+    margin: 3px;
 }
