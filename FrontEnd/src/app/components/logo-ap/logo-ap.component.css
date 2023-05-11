@@ -4,6 +4,10 @@
     width: 150px;
 }
 
+.logo, .redes{
+    display: inline;
+}
+
 .redes a {
     text-decoration: none;
     font-size: 24px;
@@ -16,8 +20,9 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     float: right;
     left: 30%;
-    margin: 3px;
+    margin: 5px;
     margin-bottom: 5px;
+    margin-top: 15px;
 }
   
 .redes a:hover {
@@ -26,5 +31,6 @@
 
 .btn{
     float: right;
-    margin: 3px;
+    margin: 5px;
+    margin-top: 20px;
 }
