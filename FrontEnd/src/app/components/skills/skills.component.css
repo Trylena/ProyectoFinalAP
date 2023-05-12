@@ -1,12 +1,16 @@
 *{
     background-color:  #78d8c0;
+    color: white;
 }
 
 .h1{
     text-align: center;
+    object-position: center;
+    color: #ffffff;
 }
 
 .progreso{
     display: inline;
     text-align: center;
+    margin-bottom: 20px;
 }

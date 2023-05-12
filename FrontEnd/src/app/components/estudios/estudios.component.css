@@ -1,42 +1,80 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:700);
 
+*{
+  color: white;
+}
+
 .h1{
   text-align: center;
   font-size: medium;
+  color: white;
 }
 
-.row{
-  display: inline;
-}
 
 .h2, h3{
   text-align: center;
-  font-size: small;
+  font-size: medium;
   display: inline;
+  color: white;
+}
+
+.estudios{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.referencia{
+  max-width: 240px;
+  border-radius: 10%;
+}
+
+.estudios li{
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+  height: 400px;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .conocimiento{
-    display: inline-block;
-    width: 940px;
-    margin: 0 auto;
-    padding: 40px;
-  }
+  display: inline-block;
+  width: 940px;
+  margin: 0 auto;
+  padding: 40px;
+}
   
   
-  .conocimiento li{
-    display: inline-block;
-    text-align: center;
-    width: 300px;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 25px 15px;
-    box-sizing: border-box;
-    border: 2px solid #ffffff;
-    border-radius: 10px;
-    color: black;
-    height: 400px;
-  }
+.conocimiento li{
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 25px 15px;
+  color: white;
+  height: 400px;
+}
 
 #escuela{
     width: 150px;
+}
+
+.idiomas{
+  display: inline;
+  text-align: center;
+  object-position: center;
+  margin: 250px;
+}
+
+.educacion-descripcion{
+  text-align: center;
+  color: white;
 }

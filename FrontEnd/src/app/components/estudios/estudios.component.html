@@ -1,52 +1,58 @@
 
     <div class="row">
-        <h1>Estudios</h1>
+        <h1>Estudios:</h1>
         <div class="col-lg-1"> </div>
-        <div class="col-lg-11">
-            <ul>
+        <div class="col-sm-3 col-md-6 col-lg-12">
+            <ul class="estudios">
                 <li>
-                    <h2>Secundaria</h2> - <h3>(2012-2017)</h3>
+                    <h3>Secundaria - (2012-2017)</h3>
                     
-                    <img src="../../../assets/San Agustin.png" id="escuela">
+                    <img class="referencia" src="../../../assets/San Agustin.png" id="escuela">
                     <p class="educacion-descripcion">Estudios secundarios cursados en el Colegio San Agustín para el titulo de Bachiller en Ciencias Sociales</p>
                 </li>
 
                 <li>
-                    <h2>Universidad</h2> - <h3>(2018-Actualmente)</h3>
+                    <h3>Universidad - (2018-Actualmente)</h3>
                     
-                    <img src="../../../assets/ungs.png" id="escuela">
+                    <img class="referencia" src="../../../assets/ungs.png" id="escuela">
                     <p class="educacion-descripcion">Estudios en la Universidad Nacional de General Sarmiento para los titulos de Ingenieria Industrial y Tecnicatura en Informatica.</p>
                 </li>
             </ul>
 
-            <div class="col-xs-6 col-md-6 col-lg-6">
-                    <circle-progress
-                    [percent]="100"
-                    [radius]="100"
-                    [showUnits]="false"
-                    [title]="'Español'"
-                    [showSubtitle]="false"
-                    [outerStrokeWidth]="16"
-                    [innerStrokeWidth]="8"
-                    [outerStrokeColor]="'#2851e6'"
-                    [innerStrokeColor]="'#95b9df'"
-                    [animation]="true"
-                    [animationDuration]="300"
-                ></circle-progress>
+            <div>
+                <div class="idiomas">
 
-                    <circle-progress
-                    [percent]="85"
-                    [radius]="100"
-                    [showUnits]="false"
-                    [title]="'Ingles'"
-                    [showSubtitle]="false"
-                    [outerStrokeWidth]="16"
-                    [innerStrokeWidth]="8"
-                    [outerStrokeColor]="'#2851e6'"
-                    [innerStrokeColor]="'#95b9df'"
-                    [animation]="true"
-                    [animationDuration]="300"
-                ></circle-progress>
+                    <h3>Idiomas:</h3>
+                        <circle-progress
+                        [percent]="100"
+                        [radius]="100"
+                        [showUnits]="false"
+                        [title]="'Español'"
+                        [titleColor]="'#ffffff'"
+                        [showSubtitle]="false"
+                        [outerStrokeWidth]="12"
+                        [innerStrokeWidth]="8"
+                        [outerStrokeColor]="'#e4d601'"
+                        [innerStrokeColor]="'#ece479'"
+                        [animation]="true"
+                        [animationDuration]="300"
+                    ></circle-progress>
+
+                        <circle-progress
+                        [percent]="85"
+                        [radius]="100"
+                        [showUnits]="false"
+                        [title]="'Ingles'"
+                        [titleColor]="'#ffffff'"
+                        [showSubtitle]="false"
+                        [outerStrokeWidth]="12"
+                        [innerStrokeWidth]="8"
+                        [outerStrokeColor]="'#e4d601'"
+                        [innerStrokeColor]="'#ece479'"
+                        [animation]="true"
+                        [animationDuration]="600"
+                    ></circle-progress>
+                </div>
             </div>
         
         </div>
